@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="886.0" prefWidth="1019.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ListView fx:id="list" layoutY="163.0" prefHeight="540.0" prefWidth="837.0" />
+      <Text fill="#1c3c9c" fontSmoothingType="LCD" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Top Weekly ਪੰਜਾਬੀ (Punjabi) Songs Downloader" textAlignment="CENTER" wrappingWidth="837.0000000000002">
+         <font>
+            <Font name="Segoe UI Symbol" size="24.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Text>
+      <Text fill="#10b531" layoutX="289.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed by Sarb" textAlignment="CENTER" wrappingWidth="262.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#d73418" fontSmoothingType="LCD" layoutX="239.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOP WEEKLY SONGS LIST" textAlignment="CENTER" wrappingWidth="362.719970703125">
+         <font>
+            <Font name="Playbill" size="44.0" />
+         </font>
+      </Text>
+      <Text fill="#031e51" layoutY="773.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOTE: Songs will be downloaded to your default 🎵Music folder ">
+         <font>
+            <Font name="Segoe UI Black" size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="downloadALL" layoutX="644.0" layoutY="127.0" mnemonicParsing="false" onAction="#downloadAll" text="DOWNLOAD ALL SONGS" textFill="#0a60bd">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="error" layoutY="809.0" prefHeight="17.0" prefWidth="837.0" text="" textFill="#df0000">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+   
+   </children>
+</Pane>
